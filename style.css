@@ -1,0 +1,55 @@
+#drag-img {
+  cursor: move;
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+#container {
+  overflow: hidden;
+  background: red;
+  height: 500px;
+  width: 500px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+}
+
+.fade {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: blue;
+}
+
+.zoom {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.afterzoom {
+  position: absolute;
+  height: 200vh;
+  width: 100%;
+  background: red;
+  overflow-x: auto;
+}
